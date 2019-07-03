@@ -78,3 +78,43 @@ D:\大三上\SQL数据库\数据库实验\数据库实验_教务系统\MySystem\
 D:\大三上\SQL数据库\数据库实验\数据库实验_教务系统\MySystem\obj\Debug\MySystem.UserLoginInfoMag.resources
 D:\大三上\SQL数据库\数据库实验\数据库实验_教务系统\MySystem\obj\Debug\MySystem.CourseMag.resources
 D:\大三上\SQL数据库\数据库实验\数据库实验_教务系统\MySystem\obj\Debug\MySystem.csproj.GenerateResource.Cache
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\bin\Debug\MySystem.exe.config
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.exe
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.pdb
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\bin\Debug\MySystem.exe
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\bin\Debug\MySystem.pdb
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.csprojResolveAssemblyReference.cache
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.AboutFrm.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.EnrolFrm.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.LForm.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.ManagerMenuFrm.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.ScoreMagFrm.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.Spec_Msg_Display.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.Spec_Msg_Mag.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.JC_Msg_Mag.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.Research_Msg_Display.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.Research_Msg_Mag.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.Student_Teacher_Mag.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.Posting_Course_Student.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.Qingjia_mag_stu.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.QJ_Msg_Student.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.QJ_Msg_Teacher.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.Course_Msg_Mag.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.Course_Student_Info.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.dept_msg_Display.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.Dept_Msg_Mag.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.Pwd_Update.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.ClassMagFrm.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.SLoginMag.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.StudentInfo.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.StudentMenuFrm.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.Properties.Resources.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.TeacherMenuFrm.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.T_InfoFrm.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.AllStudentInfo.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.AllTeacherInfo.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.JCFrm.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.ScoreInfoMag.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.UserLoginInfoMag.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.CourseMag.resources
+D:\大三下\软件工程\课程设计\Version library\MySystem\MySystem\obj\Debug\MySystem.csproj.GenerateResource.Cache

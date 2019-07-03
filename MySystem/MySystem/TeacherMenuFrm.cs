@@ -197,5 +197,15 @@ namespace MySystem
             }
         }
 
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            toolTimer.Text = "当前时间" + System.DateTime.Now.ToString() + "       ";
+        }
+
+        private void TeacherMenuFrm_Load(object sender, EventArgs e)
+        {
+            timer1.Enabled = true;
+        }
+
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TeacherMenuFrm));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.系统管理SToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -50,6 +51,8 @@
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
             this.tssMsg = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolTimer = new System.Windows.Forms.ToolStripStatusLabel();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -191,6 +194,7 @@
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1,
+            this.toolTimer,
             this.toolStripStatusLabel2,
             this.toolStripStatusLabel3,
             this.tssMsg});
@@ -224,6 +228,16 @@
             this.tssMsg.Size = new System.Drawing.Size(145, 25);
             this.tssMsg.Text = "请选择一个操作";
             // 
+            // toolTimer
+            // 
+            this.toolTimer.Name = "toolTimer";
+            this.toolTimer.Size = new System.Drawing.Size(207, 25);
+            this.toolTimer.Text = "toolStripStatusLabel4";
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // TeacherMenuFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -235,6 +249,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "TeacherMenuFrm";
             this.Text = "教学管理系统";
+            this.Load += new System.EventHandler(this.TeacherMenuFrm_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
@@ -267,5 +282,7 @@
         private System.Windows.Forms.ToolStripMenuItem 院系ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 专业ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 教研室ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripStatusLabel toolTimer;
+        private System.Windows.Forms.Timer timer1;
     }
 }

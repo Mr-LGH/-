@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ManagerMenuFrm));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.系统管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -55,9 +56,11 @@
             this.关于AToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.statusStrip1 = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.toolTimer = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
             this.tssMsg = new System.Windows.Forms.ToolStripStatusLabel();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -265,6 +268,7 @@
             this.statusStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1,
+            this.toolTimer,
             this.toolStripStatusLabel2,
             this.toolStripStatusLabel3,
             this.tssMsg});
@@ -280,6 +284,12 @@
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
             this.toolStripStatusLabel1.Size = new System.Drawing.Size(160, 25);
             this.toolStripStatusLabel1.Text = " 就绪              ";
+            // 
+            // toolTimer
+            // 
+            this.toolTimer.Name = "toolTimer";
+            this.toolTimer.Size = new System.Drawing.Size(207, 25);
+            this.toolTimer.Text = "toolStripStatusLabel4";
             // 
             // toolStripStatusLabel2
             // 
@@ -298,6 +308,10 @@
             this.tssMsg.Size = new System.Drawing.Size(145, 25);
             this.tssMsg.Text = "请选择一个操作";
             // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // ManagerMenuFrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -311,6 +325,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "ManagerMenuFrm";
             this.Text = "ManagerMenuFrm";
+            this.Load += new System.EventHandler(this.ManagerMenuFrm_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.statusStrip1.ResumeLayout(false);
@@ -351,5 +366,7 @@
         private System.Windows.Forms.ToolStripMenuItem 注销ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 专业管理ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 班级管理ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripStatusLabel toolTimer;
+        private System.Windows.Forms.Timer timer1;
     }
 }

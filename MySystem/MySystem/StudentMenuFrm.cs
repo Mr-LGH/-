@@ -374,5 +374,15 @@ namespace MySystem
                 MessageBox.Show("身份未通过管理员验证!若有疑问，请邮件消息至管理员邮箱：2296760936@qq.com", "提示！", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            toolTimer.Text = "当前时间" + System.DateTime.Now.ToString() + "       ";
+        }
+
+        private void StudentMenuFrm_Load(object sender, EventArgs e)
+        {
+            timer1.Enabled = true;
+        }
     }
 }

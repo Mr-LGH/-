@@ -141,5 +141,15 @@ namespace MySystem
             tssMsg.Text = frm.Text;
         }
 
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            toolTimer.Text = "当前时间" + System.DateTime.Now.ToString() + "       ";
+        }
+
+        private void ManagerMenuFrm_Load(object sender, EventArgs e)
+        {
+            timer1.Enabled = true;
+        }
+
     }
 }
